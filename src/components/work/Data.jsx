@@ -1,53 +1,44 @@
-// import Work1 from "../../assets/work1.jpg";
-// import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
 import searchfilm from "../../assets/Search Film.png";
 import exploresolo from "../../assets/Explore Solo.png";
+import simpleblog from "../../assets/simple blog.png";
+import animelist from "../../assets/anime list.png";
 
 export const projectData = [
   {
     id: 1,
     image: searchfilm,
-    title: "Web design",
-    category: "web",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure aliquam modi vel ullam repellat totam aut, deserunt accusantium quisquam, commodi aspernatur dolorum, itaque fugiat? Consequuntur repudiandae perspiciatis dignissimos reprehenderit culpa?",
+    title: "Film",
+    category: "frontend",
+    desc: "Sebuah website penyedia list film dengan consume API dari themoviedb.org sebagai backend. Fitur yang tersedia hanyalah search movie saja.",
     stack: "React, CSS",
     link: "",
   },
   {
     id: 2,
     image: exploresolo,
-    title: "App movil",
-    category: "app",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, dolorem.",
+    title: "Explore Solo",
+    category: "frontend",
+    desc: "Sebuah landing page sederhana dengan tema pengenalan Kota Solo.",
     stack: "HTML, CSS, JS",
-    link: "",
+    link: "https://explore-solo.vercel.app/",
   },
   {
     id: 3,
-    image: Work3,
-    title: "Brand design",
-    category: "design",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, dolorem.",
-    link: "",
+    image: simpleblog,
+    title: "Simple Blog",
+    category: "frontend",
+    desc: "Sebuah blog sederhana dengan ",
+    stack: "HTML, CSS, JS, JQuery",
+    link: "https://simple-blog-lovat.vercel.app/",
   },
   {
     id: 4,
-    image: Work4,
-    title: "App movil",
-    category: "app",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, dolorem.",
-    link: "",
-  },
-  {
-    id: 5,
-    image: Work5,
-    title: "Web asd",
-    category: "web",
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, dolorem.",
-    link: "",
+    image: animelist,
+    title: "Anime List",
+    category: "frontend",
+    desc: "Sebuah website anime list sederhana dengan API dari shikimori.one sebagai backend. Nextjs 14 server side, Infinite Scroll dan Frammer Motion Animation",
+    stack: "Next, Tailwind",
+    link: "https://anime-list-jet.vercel.app/",
   },
 ];
 
@@ -56,12 +47,9 @@ export const projectNav = [
     name: "all",
   },
   {
-    name: "web",
+    name: "frontend",
   },
   {
-    name: "app",
-  },
-  {
-    name: "design",
+    name: "fullstack",
   },
 ];
