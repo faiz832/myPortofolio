@@ -11,14 +11,14 @@ const Backend = () => {
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills-name">PHP</h3>
-              <span className="skills-level">Basic</span>
+              {/* <span className="skills-level">Basic</span> */}
             </div>
           </div>
           <div className="skills-data">
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills-name">Laravel</h3>
-              <span className="skills-level">Basic</span>
+              {/* <span className="skills-level">Basic</span> */}
             </div>
           </div>
         </div>
@@ -26,15 +26,15 @@ const Backend = () => {
           <div className="skills-data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills-name">MySQL</h3>
-              <span className="skills-level">Intermediate</span>
+              <h3 className="skills-name">Java</h3>
+              {/* <span className="skills-level">Intermediate</span> */}
             </div>
           </div>
           <div className="skills-data">
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills-name">Python</h3>
-              <span className="skills-level">Intermediate</span>
+              {/* <span className="skills-level">Intermediate</span> */}
             </div>
           </div>
         </div>

@@ -11,21 +11,21 @@ const Frontend = () => {
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills-name">HTML</h3>
-              <span className="skills-level">Advance</span>
+              {/* <span className="skills-level">Advance</span> */}
             </div>
           </div>
           <div className="skills-data">
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills-name">CSS</h3>
-              <span className="skills-level">Advance</span>
+              {/* <span className="skills-level">Advance</span> */}
             </div>
           </div>
           <div className="skills-data">
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills-name">JavaScript</h3>
-              <span className="skills-level">Intermediate</span>
+              {/* <span className="skills-level">Intermediate</span> */}
             </div>
           </div>
         </div>
@@ -33,22 +33,22 @@ const Frontend = () => {
           <div className="skills-data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills-name">Bootstrap</h3>
-              <span className="skills-level">Advance</span>
+              <h3 className="skills-name">React</h3>
+              {/* <span className="skills-level">Intermediate</span> */}
             </div>
           </div>
           <div className="skills-data">
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills-name">Tailwind</h3>
-              <span className="skills-level">Advance</span>
+              {/* <span className="skills-level">Advance</span> */}
             </div>
           </div>
           <div className="skills-data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills-name">React</h3>
-              <span className="skills-level">Intermediate</span>
+              <h3 className="skills-name">Bootstrap</h3>
+              {/* <span className="skills-level">Advance</span> */}
             </div>
           </div>
         </div>

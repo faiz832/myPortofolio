@@ -51,11 +51,11 @@ const Header = () => {
                   <i className="uil uil-file-alt nav-icon"></i>Skills
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a href="#services" className="nav-link" onClick={() => showMenu(false)}>
                   <i className="uil uil-briefcase-alt nav-icon"></i>Services
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a href="#portofolio" className="nav-link" onClick={() => showMenu(false)}>
                   <i className="uil uil-scenery nav-icon"></i>Portofolio
