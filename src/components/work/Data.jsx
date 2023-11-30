@@ -1,24 +1,28 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
+// import Work1 from "../../assets/work1.jpg";
+// import Work2 from "../../assets/work2.jpg";
 import Work3 from "../../assets/work3.jpg";
 import Work4 from "../../assets/work4.jpg";
 import Work5 from "../../assets/work5.jpg";
+import searchfilm from "../../assets/Search Film.png";
+import exploresolo from "../../assets/Explore Solo.png";
 
 export const projectData = [
   {
     id: 1,
-    image: Work1,
+    image: searchfilm,
     title: "Web design",
     category: "web",
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure aliquam modi vel ullam repellat totam aut, deserunt accusantium quisquam, commodi aspernatur dolorum, itaque fugiat? Consequuntur repudiandae perspiciatis dignissimos reprehenderit culpa?",
+    stack: "React, CSS",
     link: "",
   },
   {
     id: 2,
-    image: Work2,
+    image: exploresolo,
     title: "App movil",
     category: "app",
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, dolorem.",
+    stack: "HTML, CSS, JS",
     link: "",
   },
   {

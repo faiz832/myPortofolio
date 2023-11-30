@@ -42,10 +42,17 @@
   margin-top: var(--mb-0-5);
 }
 
-.work-description {
+.work-description,
+.work-stack {
   display: block;
   font-size: var(--small-font-size);
+  text-align: justify;
   margin-bottom: 0.5rem;
+}
+
+.work-stack {
+  font-weight: 500;
+  color: var(--dark);
 }
 
 .work-button {

@@ -67,6 +67,7 @@ const Works = () => {
                   <div>
                     <h3 className="work-title">{item.title}</h3>
                     <p className="work-description">{item.desc}</p>
+                    <p className="work-stack">Tech Stack : {item.stack}</p>
                     <a href={item.link} className="work-button" target="blank">
                       Demo <i className="bx bx-right-arrow-alt work-button-icon"></i>
                     </a>
