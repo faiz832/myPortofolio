@@ -2,6 +2,7 @@ import searchfilm from "../../assets/Search Film.png";
 import exploresolo from "../../assets/Explore Solo.png";
 import simpleblog from "../../assets/simple blog.png";
 import animelist from "../../assets/anime list.png";
+import tokokelontong from "../../assets/toko kelontong.png";
 
 export const projectData = [
   {
@@ -15,6 +16,15 @@ export const projectData = [
   },
   {
     id: 2,
+    image: animelist,
+    title: "Anime List",
+    category: "frontend",
+    desc: "Sebuah website anime list sederhana dengan API dari shikimori.one sebagai backend. Nextjs 14 server side, Infinite Scroll dan Frammer Motion Animation",
+    stack: "Next, Tailwind",
+    link: "https://anime-list-jet.vercel.app/",
+  },
+  {
+    id: 3,
     image: exploresolo,
     title: "Explore Solo",
     category: "frontend",
@@ -23,7 +33,7 @@ export const projectData = [
     link: "https://explore-solo.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     image: simpleblog,
     title: "Simple Blog",
     category: "frontend",
@@ -32,13 +42,13 @@ export const projectData = [
     link: "https://simple-blog-lovat.vercel.app/",
   },
   {
-    id: 4,
-    image: animelist,
-    title: "Anime List",
-    category: "frontend",
-    desc: "Sebuah website anime list sederhana dengan API dari shikimori.one sebagai backend. Nextjs 14 server side, Infinite Scroll dan Frammer Motion Animation",
-    stack: "Next, Tailwind",
-    link: "https://anime-list-jet.vercel.app/",
+    id: 5,
+    image: tokokelontong,
+    title: "Toko Kelontong",
+    category: "fullstack",
+    desc: "Sebuah blog sederhana dengan ",
+    stack: "Laravel, Tailwind",
+    link: "https://tokokelontongpakipul1.000webhostapp.com/",
   },
 ];
 
