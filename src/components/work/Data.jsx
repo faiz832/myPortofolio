@@ -12,7 +12,7 @@ export const projectData = [
     category: "frontend",
     desc: "Sebuah website penyedia list film dengan consume API dari themoviedb.org sebagai backend. Fitur yang tersedia hanyalah search movie saja.",
     stack: "React, CSS",
-    link: "",
+    link: "https://search-film-beta.vercel.app/",
   },
   {
     id: 2,
