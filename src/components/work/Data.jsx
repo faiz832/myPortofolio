@@ -3,6 +3,7 @@ import exploresolo from "../../assets/Explore Solo.png";
 import simpleblog from "../../assets/simple blog.png";
 import animelist from "../../assets/anime list.png";
 import tokokelontong from "../../assets/toko kelontong.png";
+import simplyproperty from "../../assets/simplyproperty.png";
 
 export const projectData = [
   {
@@ -49,6 +50,15 @@ export const projectData = [
     desc: "A simple inventory management project using Laravel 10 and Tailwind CSS. It includes features such as Login, Register, CRUD for items, CUD for item categories, Search, Change Password, and also displays the total number of users, items, and categories. The database incorporates a one-to-one relationship.",
     stack: "Laravel, Tailwind",
     link: "https://tokokelontongpakipul1.000webhostapp.com/",
+  },
+  {
+    id: 6,
+    image: simplyproperty,
+    title: "Simply Property",
+    category: "frontend",
+    desc: "A static website that I developed for company profiles and property listings of simply property, Implement basic react hooks, useState, useEffect, & useContext. Implement React Router DOM for dynamic routing. Using a loop through an array of objects for database",
+    stack: "React, Tailwind",
+    link: "https://simply-property.vercel.app/",
   },
 ];
 
