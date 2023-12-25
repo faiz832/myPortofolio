@@ -58,7 +58,7 @@ const Header = () => {
               </li> */}
               <li className="nav-item">
                 <a href="#portofolio" className="nav-link" onClick={() => showMenu(false)}>
-                  <i className="uil uil-scenery nav-icon"></i>Portofolio
+                  <i className="uil uil-scenery nav-icon"></i>Portfolio
                 </a>
               </li>
               <li className="nav-item">
