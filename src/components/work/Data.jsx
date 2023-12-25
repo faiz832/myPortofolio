@@ -68,7 +68,7 @@ export const projectData = [
     category: "frontend",
     desc: "A simple website that I developed for learning. Using bootstrap for website template. Implement REST API using JQuery. Develop CRUD and quote categories",
     stack: "HTML, Bootstrap, Javascript, JQuery",
-    link: "https://simply-property.vercel.app/",
+    link: "https://21102278.kelasmm1.cloud/21102278-mm1-pw2324/practice7/",
   },
 ];
 
