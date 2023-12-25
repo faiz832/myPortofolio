@@ -4,6 +4,7 @@ import simpleblog from "../../assets/simple blog.png";
 import animelist from "../../assets/anime list.png";
 import tokokelontong from "../../assets/toko kelontong.png";
 import simplyproperty from "../../assets/simplyproperty.png";
+import classquotes from "../../assets/class quotes.png";
 
 export const projectData = [
   {
@@ -58,6 +59,15 @@ export const projectData = [
     category: "frontend",
     desc: "A static website that I developed for company profiles and property listings of simply property, Implement basic react hooks, useState, useEffect, & useContext. Implement React Router DOM for dynamic routing. Using a loop through an array of objects for database",
     stack: "React, Tailwind",
+    link: "https://simply-property.vercel.app/",
+  },
+  {
+    id: 7,
+    image: classquotes,
+    title: "Class Quotes",
+    category: "frontend",
+    desc: "A simple website that I developed for learning. Using bootstrap for website template. Implement REST API using JQuery. Develop CRUD and quote categories",
+    stack: "HTML, Bootstrap, Javascript, JQuery",
     link: "https://simply-property.vercel.app/",
   },
 ];
